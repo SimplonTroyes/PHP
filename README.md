@@ -11,3 +11,7 @@ Exercices PHP
   - OU
   - Peut mieux faire !
 SELON si l'utilisateur a la moyenne (10/20) ou pas...
+
+## BONUS :
+A l'aide des boucles, générer un échiquier en php !
+Pour mémoire, un échiquier est un carré composé de 8 carrés sur 8... Avec en alternance UNE CASE NOIRE ET UNE CASE BLANCHE !!!!
