@@ -11,7 +11,7 @@
     <p>
       3 types de boucles :
       <ul>
-        <li>Boucle    for .... (pour)</li>
+        <li>Boucle    for .... (une casepour)</li>
         <li>Boucle    while... (tant que)</li>
         <li>Boucle    Do.... while (répéter jusqu'à)</li>
       </ul>
