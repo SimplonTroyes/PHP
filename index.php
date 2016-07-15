@@ -8,6 +8,13 @@
   </head>
   <body>
     Comment écire en php ?<br>
+    <?php
+      echo 'Hello World !';
+
+
+    ?>
+
+
 
   </body>
 </html>
