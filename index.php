@@ -10,11 +10,20 @@
     Comment écire en php ?<br>
     <?php
       echo 'Hello World !';
-
-
+      $phrase = 'Je m\'appelle ';
+      $prenom1 = 'Xavier.';
+      echo $prenom;
     ?>
+    <p>
+      Je m'appelle Xavier.
+    </p>
+    <?php
+    /*
+    * Ecrire une ligne en php qui affiche la phrase et votre prénom et un saut de ligne
+    */
 
 
+     ?>
 
   </body>
 </html>
