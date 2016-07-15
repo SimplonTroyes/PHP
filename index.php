@@ -12,7 +12,7 @@
       echo 'Hello World !';
       $phrase = 'Je m\'appelle ';
       $prenom1 = 'Xavier.';
-      echo $prenom;
+      // echo $prenom1;
     ?>
     <p>
       Je m'appelle Xavier.
@@ -21,9 +21,12 @@
     /*
     * Ecrire une ligne en php qui affiche la phrase et votre prénom et un saut de ligne
     */
+    echo $phrase;
+    echo $prenom1;
+    echo '<br>Je m\'appelle'.$prenom1;
+    echo '<br>'.$phrase.$prenom1;
 
-
-     ?>
+    ?>
 
   </body>
 </html>
