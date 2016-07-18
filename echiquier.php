@@ -15,7 +15,7 @@
       // Affichage d'une ligne
       echo ' ';
     }
-
+    // Ecrire le programme échiquier
 
 
     ?>
