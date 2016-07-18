@@ -10,9 +10,6 @@
     <p>
       Echiquier
     </p>
-    <table>
-
-    </table>
     <?php
     echo '<table border="1px">';
       for($i=0;$i<8;$i++){
@@ -27,7 +24,6 @@
       echo '</tr>';
       }
     echo '</table>';
-
     ?>
 
 
