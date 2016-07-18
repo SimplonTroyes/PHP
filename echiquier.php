@@ -11,10 +11,6 @@
       Echiquier
     </p>
     <?php
-    for ($i=1;$i <= 8;$i++){
-      // Affichage d'une ligne
-      echo ' ';
-    }
     // Ecrire le programme échiquier
 
 
