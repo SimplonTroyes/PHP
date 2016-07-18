@@ -47,15 +47,29 @@
     <p>
       Affichage des nombre pairs de 1 à 49<br>
       <?php
-      // Votre code ici puis copiez collez en local sur votre localhost
+      for ($i=1; $i <= 49 ; $i++) {
+        if ($i % 2 == 0) {
+          echo $i.' ';
+        }
+      }
 
+        echo '<p> code </p>';
 
-      ?>
+      for ($i= 0; $i <= 49 ;  $i += 2) {
+            echo $i.' ';
+        }
+
+            ?>
     </p>
     <p>
       Affichage des nombre impairs de 50 à 100<br>
       <?php
-      // Votre code ici puis copiez collez en local sur votre localhost
+
+      for ($i=50; $i <=100 ; $i++) {
+        if($i % 2 != 0) {
+          echo $i." ";
+        }
+      }
 
 
       ?>
@@ -63,6 +77,11 @@
     <p>
       Affichage des nombre pairs de 100 à 50<br>
       <?php
+      for ($i=100; $i>49 ; $i--) {
+        if ($i % 2 == 0) {
+          echo $i.' ';# code...
+        }
+      }
       // Votre code ici puis copiez collez en local sur votre localhost
 
 

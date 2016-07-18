@@ -10,10 +10,26 @@
     <p>
       Echiquier
     </p>
-    <?php
-    // Ecrire le programme échiquier
+    <table>
 
+    </table>
+    <?php
+    echo '<table border="1px">';
+      for($i=0;$i<8;$i++){
+        echo '<tr>';
+        for($j=0;$j<8;$j++){
+          if(($i+$j)%2 == 0){
+            echo '<td width="25px" height="25px" style="background-color:black;"></td>';
+          } else {
+            echo '<td width="25px" height="25px"></td>';
+          }
+        }
+      echo '</tr>';
+      }
+    echo '</table>';
 
     ?>
+
+
   </body>
 </html>
