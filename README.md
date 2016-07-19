@@ -19,3 +19,6 @@ Pour mémoire, un échiquier est un carré composé de 8 carrés sur 8... Avec e
 ## BONUS 2 :
 Selon le tableau des températures suivantes, trouver la valeur max et min du tableau (sans utiliser les fonctions max et min)
 8 9 11 12 16 20 22 23 21 16 12 10
+
+## BONUS 3
+Vous trouverez trois images (défi 1 : tableau_note.png, défi 2 : tab_notes2.png et défi 3 : pantheon.png) représentant 3 défis à reproduire. Bonne chance ^^
