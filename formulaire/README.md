@@ -1,4 +1,4 @@
-## Exemples et modèles de formulaire
+  ## Exemples et modèles de formulaire
 Un formulaire est défini par la balise form qui inclut la méthode de transmission des données du formulaire vers une autre page par le serveur.
 Si :
 - method='post' alors on utilisera *$_POST['variable']*
@@ -19,3 +19,4 @@ Exemple :
 - 4ème étape : enregistrement du fichier en local
 - etc...
 La pièce jointe doit s'enregistrer dans un de VOS répertoires. Attention aux droits d'accès linux.
+Une fonction existe en php : mail().
