@@ -17,6 +17,15 @@ $_SESSION['nom']=$_GET['nom'];
   </head>
   <body>
     <?php
+    foreach($_GET as $key => $value){
+      echo 'Nom variable : ';
+      echo $key.' => '.$value.'<br>';
+    }
+    var_dump($_GET);
+    die('OK');
+
+
+
     // Récupération des données
     $prenom = $_GET['prenom'];
     echo 'Prenom : '.$prenom.'<br>';
