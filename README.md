@@ -15,3 +15,7 @@ SELON si l'utilisateur a la moyenne (10/20) ou pas...
 ## BONUS :
 A l'aide des boucles, générer un échiquier en php !
 Pour mémoire, un échiquier est un carré composé de 8 carrés sur 8... Avec en alternance UNE CASE NOIRE ET UNE CASE BLANCHE !!!!
+
+## BONUS 2 :
+Selon le tableau des températures suivantes, trouver la valeur max et min du tableau (sans utiliser les fonctions max et min)
+8 9 11 12 16 20 22 23 21 16 12 10
