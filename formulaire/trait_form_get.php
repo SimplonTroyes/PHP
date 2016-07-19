@@ -1,3 +1,14 @@
+<?php
+session_start(); // démarrage de la session
+/*
+* Récupération des données fournies pas la méthode de formulaire
+* et stockage dans les variables de session
+*/
+$_SESSION['nom']=$_GET['nom'];
+$_SESSION['prenom']=$_GET['prenom'];
+$_SESSION['nom']=$_GET['nom'];
+ ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,7 +19,6 @@
     <?php
     // Récupération des données
     $prenom = $_GET['prenom'];
-    // echo 'Prenom : '.$_GET['prenom'].'<br>';
     echo 'Prenom : '.$prenom.'<br>';
     echo 'Nom : '.$_GET['nom'].'<br>';
     ?>
@@ -25,16 +35,23 @@
       if(!is_numeric($dateNaissance)){
         echo 'toujours pas';
       }
-    $dateNaissance = date('Y', $dateNaissance);
+    $dateNaissance = date('Y-m-d', $dateNaissance);
+    echo $dateNaissance;
+
+
     // echo '</p>';
     $dateJour = date('Y');
+    echo '<br>'.$dateJour;
     $age = $dateJour - $dateNaissance;
+    $_SESSION['age'] = $age; // on stocke la variable age dans la variable de session
     echo '<br>Vous avez : '.$age.' ans';
     echo '<p></p>Adresse : '.$_GET['adresse'].'<br>';
     echo $_GET['code'].' '.$_GET['burdis'];
     ?>
     <p>
-      <a href="recup_donnees.php?age=<?php echo $age; ?>&prenom=<?php echo $prenom; ?>">Lien vers la troisième page</a>
+<a href="recup_donnees.php">Lien vers la troisième page</a>
+Sans session_start :<br>
+<a href="recup_donnees.php?nom=<?php echo $nom ?>&age=<?php echo $age ?>">Lien vers la troisième page</a>
     </p>
   </body>
 </html>
