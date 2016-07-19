@@ -9,7 +9,7 @@ Si :
 text, password, checkbox, radio, submit, reset, file, hidden, image, button
 Exemple : <input type="text" name="nomVariable" >
 
-## BONUS
+## BONUS (à faire sur votre espace perso)
 Objectif : créer un formulaire de contact avec envoi de mail et pièce jointe
 NB : Travaillez par étape ^^
 Exemple :
