@@ -1,11 +1,11 @@
-  ## Exemples et modèles de formulaire
+## Exemples et modèles de formulaire
 Un formulaire est défini par la balise form qui inclut la méthode de transmission des données du formulaire vers une autre page par le serveur.
 Si :
 - method='post' alors on utilisera *$_POST['variable']*
 - method='get' alors on utilisera *$_GET['variable']*
 
 
-### Type de valeurs pour l'attribut type de la balise *<input>*
+## Type de valeurs pour l'attribut type de la balise *<input>*
 text, password, checkbox, radio, submit, reset, file, hidden, image, button
 Exemple : <input type="text" name="nomVariable" >
 
@@ -20,4 +20,5 @@ Exemple :
 - etc...
 La pièce jointe doit s'enregistrer dans un de VOS répertoires. Attention aux droits d'accès linux.
 Une fonction existe en php : mail().
-Pour simplifier le travail, création d'un espace personnel.
+
+Pour simplifier le travail, création d'un espace personnel sur le site http://www.hostinger.fr.
