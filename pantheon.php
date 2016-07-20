@@ -6,6 +6,20 @@
   </head>
   <body>
     <?php
+    echo '<hr>';
+    echo '<h2>Notes</h2>';
+    $tabNotes = array(
+                "Note 1" => 14,
+                "Note TP" => 12,
+                "Note m1202" => 8
+    );
+    echo '<table border="1px">';
+    foreach ($tabNotes as $key => $value) {
+      echo '<tr><td>'.$key.'</td><td>'.$value.'</td></tr>';
+    }
+    echo '</table>';
+
+    echo '<hr>';
     $pantheon = array();
     $pantheon['curie'] = array(
                         'Nom' => 'CURIE',
