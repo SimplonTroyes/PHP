@@ -24,6 +24,10 @@ Selon le choix (voyage ou excursion), vous êtes dirigés vers une seule page (*
 
 Enfin cette page transfère et fait le récapitulatif (**recapitulatif.php**) des choix faits ainsi que le montant total en fonction du nombre de personnes.
 
+**Récapitulatif**
+
+![Recapitulatif](recapitulatif.jpg)
+
 
 ## Hosting
 Vous pouvez uploadez votre site avec GitHub page, plus d'info ici :
