@@ -22,7 +22,7 @@ Selon le choix (voyage ou excursion), vous êtes dirigés vers une seule page (_
 
 ![Excursion](choix_excursion.jpg)
 
-Enfin cette page transfère et fait le récapitulatif des choix faits ainsi que le montant total en fonction du nombre de personnes.
+Enfin cette page transfère et fait le récapitulatif (recapitulatif.php) des choix faits ainsi que le montant total en fonction du nombre de personnes.
 
 
 ## Hosting
