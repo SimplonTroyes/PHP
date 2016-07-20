@@ -26,6 +26,8 @@ Enfin cette page transfère et fait le récapitulatif (**recapitulatif.php**) de
 
 
 ## Hosting
-Vous pouvez uploadez otre site avec GitHub page, more info here:
+Vous pouvez uploadez votre site avec GitHub page, plus d'info ici :
+
 https://pages.github.com/
+
 ou encore le tester en local sur votre système ubuntu (localhost)
