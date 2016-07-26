@@ -22,3 +22,6 @@ Selon le tableau des températures suivantes, trouver la valeur max et min du ta
 
 ## BONUS 3 :
 Vous trouverez trois images (défi 1 : tableau_note.png, défi 2 : tab_notes2.png et défi 3 : pantheon.png) représentant 3 défis à reproduire. Bonne chance ^^
+![Défi 1](tableau_note.png)
+![Défi 2](tab_notes2.png)
+![Défi 3](pantheon.png)
