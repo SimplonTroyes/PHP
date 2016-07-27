@@ -7,10 +7,18 @@
 4 -  Ecrire une fonction qui affiche toutes les combinaisons de 5 chiffres possibles (cadenas à 5 chiffres par exemple)
 
 5 - Ecrire une fonction qui récupère les informations d'un formulaire (methode post) et qui affiche :
+
     - l'année en cours
+
     - la première lettre du prénom
+
     - les 3 premières lettres du nom
+
     - le sigle ESC
+
     - le département
+
       - exemple : Pour John Doe
+
       - *2016jdoeESC10*
+      
