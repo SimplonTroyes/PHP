@@ -75,7 +75,6 @@
         <li>Ecrire une fonction qui renvoie la somme des N premiers nombres</li>
         <li></li>
         <?php
-
         $tabNotes2=array(
                 "histoire" => array(15,12),
                 "maths" => array(12,8),
@@ -83,8 +82,6 @@
                 "sciences" => array(12,14)
         );
         include('functions.inc.php');
-        // include('function.inc.php');
-
         /*  Test de vérification d'existence du tableau ou de la variable    */
           if(is_array($tabNotes2)):
             echo 'tabNotes2 est un tableau OK';
@@ -92,21 +89,32 @@
             echo 'ce n\'est pas un tableau';
           endif;
         // Autre écriture de test
-
         if(isset($tabNotes2) && is_array($tabNotes2)) {
           echo afficheTableauNotes($tabNotes2);
         } else {
           exit();
         }
-
          ?>
 <div class="">
  <span>
-   <?=(!isset($tabNotes2) && !is_array($tabNotes2)?'Aucun tableau n\'est défini':afficheTableauNotes($tabNotes2))?>
+   Autre écriture possible pour un test :
+   <pre>
+      &lt;?=(!isset($tabNotes2) && !is_array($tabNotes2)?'Aucun tableau n\'est défini':afficheTableauNotes($tabNotes2))?&gt
+   </pre>
  </span>
 </div>
-
+      <li>Affichage de toutes les combinaisons de 5 chiffres possibles à l'aide d'une fonction</li>
+          <?php
+          cadenas5();
+          ?>
       </ol>
+
+
+
+
+
+
+
     </div>
 
 
