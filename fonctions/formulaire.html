@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+<!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <title>Formulaire</title>
+</head>
+<body>
+  <div class="container">
+    <form action="recuperation.php" method="post" class="form-group" role="form">
+      <div class="form-group">
+        <label for="prenom">Prenom</label>
+        <input type="text" name="prenom">
+      </div>
+      <div class="form-group">
+        <label for="nom">Nom</label>
+        <input type="text" name="nom">
+      </div>
+      <div class="form-group">
+        Date début séjour : <input type="text" class="datePicker" name="dateDebut">
+      </div>
+      <div class="form-group">
+        Date fin séjour : <input type="text" class="datePicker" name="dateFin">
+      </div>
+      <div class="form-group">
+        <select name="typeDevis" id="typeDevis">
+          <option value="default" selected>- Choissisez votre type de devis -</option>
+          <option value="location">Devis Location</option>
+          <option value="camping">Devis Camping</option>
+          <option value="mobilHome">Devis MobilHome</option>
+          <option value="tente">Devis Tente</option>
+
+        </select>
+      </div>
+
+      <div class="form-group">
+         <label for="commentaire">Commentaires :</label>
+         <textarea class="form-control" rows="5" id="commentaire"></textarea>
+      </div>
+      <input type="submit" name="go" value="Goooo !!">
+    </form>
+  </div>
+
+
+<!-- Script -->
+<script src="datepicker-fr.js"></script>
+<script>
+$( function() {
+  $( ".datePicker" ).datepicker();
+} );
+</script>
+</body>
+</html>

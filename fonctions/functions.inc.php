@@ -37,6 +37,65 @@ function afficheTableauNotes($tableau){
      return $msg;
 }
 
+/****************************************/
+/*           CADENAS a 5 chiffres       */
+/****************************************/
+
+function cadenas5() {
+  for($i=0; $i<10;$i++){
+    for($j=0; $j<10;$j++){
+      for($k=0; $k<10;$k++){
+        for($l=0; $l<10;$l++){
+          for($m=0; $m<10;$m++){
+            echo $i.$j.$k.$l.$m.' || ';
+          }
+        }
+      }
+    }
+  }
+}
+
+/**********************************************/
+/*         Combinaison Nom prenom             */
+/**********************************************/
+function combinaisonNomPrenom(){
+    $combinaison = date("Y").substr($_POST['prenom'],0,1).substr($_POST['nom'],0,3).'ESC10';
+    return $combinaison;
+}
+
+/*************************************/
+/*    CHECK DONNEES FORMULAIRE       */
+/*************************************/
+function verifForm(){
+  foreach($_POST as $key => $value){
+    echo $key. '=>'.$value.'<br>';
+    die('OK Fin verif form');
+  }
+}
+
+function verifDevis(){
+  // $typeLocation = array('location','camping','mobilHome','tente');
+  // if($_POST['typeDevis'] == 'default'):
+  //   $typeDevis = 0;
+  // endif;
+  // $typeDevis = array_search($_POST['typeDevis'], $typeLocation);
+  // return strtoupper($typeLocation[$typeDevis]);
+  return strtoupper($_POST['typeDevis']);
+}
+
+function afficheResumeDevis(){
+  $msg = 'Bonjour '.ucfirst($_POST['prenom']).' '.ucfirst($_POST['nom']).'<br>';
+  $msg .= 'Vous vous êtes inscrit le '.date("d-m-Y");
+  $msg .= '<p>Votre demande concerne un devis pour un/une '.verifDevis();
+  $msg .= ' pour la période du '.$_POST['dateDebut'].' au '.$_POST['dateFin'].'</p>';
+  $msg .= '<p>Votre login temporaire est : '.combinaisonNomPrenom().'</p>';
+  return $msg;
+}
+
+
+
+
+
 
 
 
