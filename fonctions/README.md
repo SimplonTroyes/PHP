@@ -15,3 +15,12 @@
     - le département
       - exemple : Pour John Doe
       - *2016jdoeESC10*
+
+6 - Complétez le formulaire en incluant le plugin jquery Datepicker correspondant en liblellé à Date de début et Date de fin. [Téléchargez le plugin ici](https://jqueryui.com/datepicker/). Il faut donc 2 datepicker... Ou alors il faut trouver une autre solution
+
+7 - Insérez une zone de texte dans le formulaire ainsi qu'une liste proposant un devis de type :Devis location, Devis camping, Devis mobilhome.
+
+8 - Sur la page de récupération, affichez toutes les informations sous le type :
+
+    - Bonjour *prenom* *nom*, vous vous êtes inscrit sur notre site le *date*. Votre demande concerne un *type devis* pour la période du *date_debut* au *date_fin*.
+    Votre login est *login* (correspondant à la récupération du point 6)
