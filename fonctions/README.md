@@ -16,7 +16,7 @@
       - exemple : Pour John Doe
       - *2016jdoeESC10*
 
-6 - Complétez le formulaire en incluant le plugin jquery Datepicker correspondant en liblellé à Date de début et Date de fin. [Téléchargez le plugin ici](https://jqueryui.com/datepicker/). Il faut donc 2 datepicker... Ou alors il faut trouver une autre solution
+6 - Complétez le formulaire en incluant le plugin jquery Datepicker correspondant en libellé à Date de début et Date de fin. [Téléchargez le plugin ici](https://jqueryui.com/datepicker/). Il faut donc 2 datepicker... Ou alors il faut trouver une autre solution
 
 7 - Insérez une zone de texte dans le formulaire ainsi qu'une liste proposant un devis de type :Devis location, Devis camping, Devis mobilhome.
 
