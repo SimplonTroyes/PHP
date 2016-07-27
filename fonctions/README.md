@@ -22,5 +22,5 @@
 
 8 - Sur la page de récupération, affichez toutes les informations sous le type :
 
-    - Bonjour *prenom* *nom*, vous vous êtes inscrit sur notre site le *date*. Votre demande concerne un *type devis* pour la période du *date_debut* au *date_fin*.
+    - Bonjour **prenom** **nom**, vous vous êtes inscrit sur notre site le **date**. Votre demande concerne un *type devis* pour la période du *date_debut* au *date_fin*.
     Votre login est *login* (correspondant à la récupération du point 6)
