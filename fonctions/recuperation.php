@@ -19,7 +19,7 @@
         <?=afficheResumeDevis();?>
       </div>
       <br>
-      <?=enregistrementFichier();?>
+      
     </div>
 
 
