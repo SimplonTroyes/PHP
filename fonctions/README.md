@@ -23,3 +23,6 @@
 8 - Sur la page de récupération, affichez toutes les informations sous le type :
 
  Bonjour **prenom** **nom**, vous vous êtes inscrit sur notre site le **date**. Votre demande concerne un **type_devis** pour la période du **date_debut** au **date_fin**. Votre login est **login** (correspondant à la récupération du point 5)
+
+ 9 - Créez une fonction qui enregistre dans un **fichier texte** les informations reçues. Le fichier s'appelera par exemple **camping.txt**, s'enregistre sur un répertoire data dans votre dossier. Il enregistre ** A LA SUITE** les informations saisies par les visiteurs du site. Il reprend les informations suivantes et dans l'ordre suivant :
+     - 0;nom;prenom;typeLocation;dateDebut;dateFin;
