@@ -9,7 +9,8 @@ function ecrireTexte(){
   $texte = 'Hello';
   $texte .= ' Jordan.';
   return $texte;
-  //Comment faire pour écrire Coucou Jordan
+  //Comment faire pour écrire Hello Jordan avec deux fois la même variable
+  // méthode utilisée pour construire une table html dans du php
 }
 
 /*********************************************************************/
