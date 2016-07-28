@@ -74,13 +74,13 @@ function verifForm(){
 }
 
 function verifDevis(){
-  // $typeLocation = array('location','camping','mobilHome','tente');
-  // if($_POST['typeDevis'] == 'default'):
-  //   $typeDevis = 0;
-  // endif;
-  // $typeDevis = array_search($_POST['typeDevis'], $typeLocation);
-  // return strtoupper($typeLocation[$typeDevis]);
-  return strtoupper($_POST['typeDevis']);
+  $typeLocation = array('location','camping','mobilHome','tente');
+  if($_POST['typeDevis'] == 'default'):
+    $typeDevis = 0;
+  endif;
+  $typeDevis = array_search($_POST['typeDevis'], $typeLocation);
+  return strtoupper($typeLocation[$typeDevis]);
+  // return strtoupper($_POST['typeDevis']);
 }
 
 function afficheResumeDevis(){
@@ -91,7 +91,6 @@ function afficheResumeDevis(){
   $msg .= '<p>Votre login temporaire est : '.combinaisonNomPrenom().'</p>';
   return $msg;
 }
-
 
 
 

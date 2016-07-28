@@ -18,7 +18,8 @@
       <div class="btn btn-success">
         <?=afficheResumeDevis();?>
       </div>
-
+      <br>
+      <?=enregistrementFichier();?>
     </div>
 
 
