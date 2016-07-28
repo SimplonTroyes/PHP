@@ -27,3 +27,6 @@
  9 - Créez une fonction qui enregistre dans un **fichier texte** les informations reçues. Le fichier s'appelera par exemple **camping.txt**, s'enregistre sur un répertoire data dans votre dossier. Il enregistre ** A LA SUITE** les informations saisies par les visiteurs du site. Il reprend les informations suivantes et dans l'ordre suivant :
 
     - 0;nom;prenom;typeLocation;dateDebut;dateFin;
+    - 1;nom;prenom;typeLocation;dateDebut;dateFin;
+    - 2;nom;prenom;typeLocation;dateDebut;dateFin;
+    - etc....
