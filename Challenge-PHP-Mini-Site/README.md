@@ -15,4 +15,9 @@ Ils vous fournissent un début d'arborescence de site à savoir :
 4 - Créer un répertoire class qui contiendra un fichier de fonctions. Les fonctions doivent : 
 
     - afficher le style de la page automatiquement !
-    - affichier le fichier texte correspondant au nom de la page !
+    - afficher le fichier texte correspondant au nom de la page !
+    
+### Principe de fonctionnement :
+Une page **visites.php** est créée par l'agence web (vous). Il s'agit d'un simple copier coller d'une des pages existantes. Les clients créent un fichier **visites.txt** qu'ils uploadent dans le répertoire **txt**.
+La fonction check le nom de la page **active**, le récupère et charge la class **pageNomfichierActif** du fichier CSS.
+De même, une fonction check le nom de la page active et va récupérer et afficher le fichier **txt** correspondant au nom de la page active.
