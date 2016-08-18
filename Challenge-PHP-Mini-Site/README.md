@@ -15,6 +15,7 @@ Ils vous fournissent un début d'arborescence de site à savoir :
 4 - Créer un répertoire class qui contiendra un fichier de fonctions. Les fonctions doivent :
 
     - afficher le style de la page automatiquement !
+<<<<<<< HEAD
     - affichier le fichier texte correspondant au nom de la page !
 
 5 - Pour ajouter du défi ( et dans le temps imparti), ajoutez un répertoire **admin** avec trois pages dans ce répertoire (index, ajoutfichier et creationpage).
@@ -23,3 +24,11 @@ Ils vous fournissent un début d'arborescence de site à savoir :
     - la page **creationpage** génère une nouvelle page php selon un modèle (dans le répertoire **templates**)
 
 6 - Et si vous avez encore le temps, protégez l'accès au répertoire admin avec un code d'accès :D (NB : allez voir du côté de htaccess..)
+=======
+    - afficher le fichier texte correspondant au nom de la page !
+    
+### Principe de fonctionnement :
+Une page **visites.php** est créée par l'agence web (vous). Il s'agit d'un simple copier coller d'une des pages existantes. Les clients créent un fichier **visites.txt** qu'ils uploadent dans le répertoire **txt**.
+La fonction vérifie le nom de la page **active**, le récupère et charge la classe **pageNomfichierActif** du fichier CSS.
+De même, une fonction vérifie le nom de la page active et va récupérer, mettre en forme et afficher le fichier **txt** correspondant au nom de la page active.
+>>>>>>> 2f9046353b772106a51629a0b0e5e26218a02f61
