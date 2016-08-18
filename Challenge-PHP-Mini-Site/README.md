@@ -23,7 +23,6 @@ Ils vous fournissent un début d'arborescence de site à savoir :
     - la page **creationpage** génère une nouvelle page php selon un modèle (dans le répertoire **templates**)
 
 6 - Et si vous avez encore le temps, protégez l'accès au répertoire admin avec un code d'accès :D (NB : allez voir du côté de htaccess..)
-    - afficher le fichier texte correspondant au nom de la page !
 
 ### Principe de fonctionnement :
 Une page **visites.php** est créée par l'agence web (vous). Il s'agit d'un simple copier coller d'une des pages existantes. Les clients créent un fichier **visites.txt** qu'ils uploadent dans le répertoire **txt**.
