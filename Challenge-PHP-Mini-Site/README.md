@@ -18,8 +18,11 @@ Ils vous fournissent un début d'arborescence de site à savoir :
     - affichier le fichier texte correspondant au nom de la page !
 
 5 - Pour ajouter du défi ( et dans le temps imparti), ajoutez un répertoire **admin** avec trois pages dans ce répertoire (index, ajoutfichier et creationpage).
+
     - la page **index** : fait un résumé des autres pages
-    - la page **ajoutfichier** : formulaire d'envoi de fichier texte vers le répertoire **txt**. Un test doit être réalisé pour vérifier si le fichier existe déjà. Si oui, un message apparait pour informer la personne uploadant le fichier.
+    - la page **ajoutfichier** : formulaire d'envoi de fichier texte vers le répertoire **txt**.
+    Un test doit être réalisé pour vérifier si le fichier existe déjà.
+    Si oui, un message apparait pour informer la personne uploadant le fichier.
     - la page **creationpage** génère une nouvelle page php selon un modèle (dans le répertoire **templates**)
 
 6 - Et si vous avez encore le temps, protégez l'accès au répertoire admin avec un code d'accès :D (NB : allez voir du côté de htaccess..)
